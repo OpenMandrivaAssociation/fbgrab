@@ -1,14 +1,15 @@
+%define name	fbgrab
 %define version 1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: FBGrab is a framebuffer screenshot program
-Name: fbgrab
+Name: %{name}
 Version: %{version}
 Release: %{release}
 License: GPL
 Group: Graphics
 Source: http://hem.bredband.net/gmogmo/fbgrab/%{name}-%{version}.tar.bz2
-Patch: fbgrab-1.0-makefile.patch.bz2
+Patch: fbgrab-1.0-makefile.patch
 Url: http://hem.bredband.net/gmogmo/fbgrab/
 Buildroot: %{_tmppath}/fbgrab-root
 BuildRequires: libpng-devel
