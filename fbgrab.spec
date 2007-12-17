@@ -11,7 +11,6 @@ Group: Graphics
 Source: http://hem.bredband.net/gmogmo/fbgrab/%{name}-%{version}.tar.bz2
 Patch: fbgrab-1.0-makefile.patch
 Url: http://hem.bredband.net/gmogmo/fbgrab/
-Buildroot: %{_tmppath}/fbgrab-root
 BuildRequires: libpng-devel
 BuildRequires: zlib-devel
 
