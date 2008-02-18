@@ -2,7 +2,7 @@
 %define version 1.0
 %define release %mkrel 3
 
-Summary: FBGrab is a framebuffer screenshot program
+Summary: Framebuffer screenshot program
 Name: %{name}
 Version: %{version}
 Release: %{release}
