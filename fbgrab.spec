@@ -1,6 +1,6 @@
 %define name	fbgrab
 %define version 1.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: Framebuffer screenshot program
 Name: %{name}
