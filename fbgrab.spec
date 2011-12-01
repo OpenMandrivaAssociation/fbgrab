@@ -30,7 +30,7 @@ warranty and license is GPL version 2, see tar-ball for details.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %makeinstall
 
@@ -41,4 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %_mandir/man1/fbgrab.1*
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
