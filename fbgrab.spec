@@ -6,7 +6,7 @@ License:	GPL
 Group:		Graphics
 Source0:	http://fbgrab.monells.se/%{name}-%{version}.tar.gz
 Patch0:		fbgrab-1.0-makefile.patch
-Url: http://hem.bredband.net/gmogmo/fbgrab/
+Url: https://hem.bredband.net/gmogmo/fbgrab/
 BuildRequires: libpng-devel
 BuildRequires: zlib-devel
 
